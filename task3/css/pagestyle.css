@@ -1,0 +1,226 @@
+#logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Red Hat Display', Times, sans-serif;
+    font-style: normal;
+}
+
+.menu {
+    position: relative;
+    left: 150px;
+    top: 30px;
+    text-decoration: none;
+    color: #25202F;
+    width: 338px;
+    height: 26px;
+    font-family: 'Red Hat Display', Times, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 20px;
+}
+
+.menu:hover {
+    color: violet
+}
+
+.menupic {
+    right: 0px;
+    position: absolute;
+}
+
+.menupic:hover {
+    right: 150px;
+    position: absolute;
+}
+
+h1,
+h2 {
+    font-family: 'Red Hat Display', Times, sans-serif;
+}
+
+#hello {
+    position: relative;
+    width: 358px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #666666;
+    left: 40px;
+    top: 100px;
+}
+
+#user-name {
+    position: absolute;
+    width: 358px;
+    height: 110px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120%;
+    left: 40px;
+    top: 150px;
+}
+
+#user {
+    right: 100px;
+    top: 20px;
+    position: absolute;
+    width: 535px;
+    height: 622px;
+    padding: 10px;
+}
+
+p.text {
+    position: relative;
+    width: 600px;
+    height: 32px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+    left: 70px;
+    top: 100px;
+}
+
+.buttontalk1 {
+    position: absolute;
+    left: 70px;
+    width: 200px;
+    height: 60px;
+    top: 350px;
+    background: #8643DC;
+    border-radius: 100px;
+    font-family: 'Red Hat Display', Times, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.buttontalk1:focus {
+    background-color: rgb(250, 9, 250);
+}
+
+h2.services {
+    position: absolute;
+    left: 30px;
+    width: 246px;
+    height: 96px;
+    font-family: 'Red Hat Display', Times, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    top: 450px;
+}
+
+ul#services-list {
+    list-style: none;
+}
+
+#ux {
+    position: absolute;
+    top: 600px;
+}
+
+.n {
+    font-family: 'Red Hat Display', Times, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+    left: 110px;
+}
+
+#ux-n {
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    top: 600px;
+}
+
+.t {
+    position: absolute;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #47444E;
+    left: 30px;
+}
+
+#ux-t {
+    top: 650px;
+}
+
+#brand {
+    position: absolute;
+    top: 700px;
+}
+
+#brand-n {
+    position: absolute;
+    width: 147px;
+    height: 32px;
+    top: 700px;
+}
+
+#brand-t {
+    top: 750px;
+}
+
+#webdev {
+    position: absolute;
+    top: 800px;
+}
+
+#webdev-n {
+    position: absolute;
+    width: 203px;
+    height: 32px;
+    top: 800px;
+}
+
+#wd-t {
+    top: 850px;
+}
+
+#lasttext {
+    position: absolute;
+    top: 890px;
+    left: 550px;
+    width: 500px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #21232D;
+}
+
+.socialmedia {
+    position: absolute;
+    top: 980px;
+}
+
+#sm1 {
+    left: 580px;
+}
+
+#sm2 {
+    left: 640px;
+}
+
+#sm3 {
+    left: 700px;
+}

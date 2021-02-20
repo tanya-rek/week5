@@ -1,0 +1,85 @@
+div {
+    display: flex;
+}
+
+.header {
+    background-color: #80808050;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 150px;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #80808080;
+    height: 150px;
+    display: flex;
+}
+
+.main {
+    background-color: rgba(255, 239, 8, 0.3);
+    height: 500px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.mainname {
+    align-self: flex-start;
+    align-content: center;
+    flex-grow: 0;
+}
+
+.mainmore {
+    flex-direction: column;
+}
+
+.more {
+    background-color: #f4a46070;
+    height: 100px;
+    flex-basis: 20vw;
+    margin: auto;
+    justify-content: center;
+}
+
+.more12 {
+    display: flex;
+    margin: auto;
+    width: 50vw;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.more3 {
+    background-color: #f4a46070;
+    height: 100px;
+    width: 80vh;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.aside {
+    background-color: rgba(0, 128, 0, 0.3);
+    height: 500px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin: auto;
+    background-color: #80808050;
+    width: 10vw;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+}
