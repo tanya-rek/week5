@@ -49,10 +49,18 @@ div {
 }
 
 .more12 {
-    display: flex;
     width: 50vw;
     flex-direction: row;
     justify-content: center;
+
+}
+
+.m1 {
+    align-self: center;
+}
+
+.m2 {
+    align-self: center;
 }
 
 .more3 {
@@ -81,6 +89,4 @@ div {
     background-color: #80808050;
     width: 10vw;
     padding: 50px;
-    flex-direction: row;
-    justify-content: space-around;
 }
