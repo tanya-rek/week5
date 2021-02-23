@@ -1,7 +1,11 @@
+header {
+    display: flex;
+    flex-direction: row;
+
+}
+
 #logo {
-    position: absolute;
-    width: 40px;
-    height: 40px;
+    display: flex;
     padding: 20px;
 }
 
@@ -10,14 +14,16 @@ p {
     font-style: normal;
 }
 
+#mainmenu {
+    display: flex;
+}
+
 .menu {
-    position: relative;
-    left: 150px;
-    top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     text-decoration: none;
     color: #25202F;
-    width: 338px;
-    height: 26px;
     font-family: 'Red Hat Display', Times, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -31,7 +37,7 @@ p {
 }
 
 .menupic {
-    right: 0px;
+    right: 50px;
     position: absolute;
 }
 
@@ -45,44 +51,54 @@ h2 {
     font-family: 'Red Hat Display', Times, sans-serif;
 }
 
+.designer {
+    display: flex;
+    flex-direction: row;
+}
+
+.desintro {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.despic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+}
+
 #hello {
-    position: relative;
-    width: 358px;
-    height: 110px;
+    display: flex;
+    flex-direction: column;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 120%;
     color: #666666;
-    left: 40px;
-    top: 100px;
+    padding: 20px;
+    top: 80px;
 }
 
 #user-name {
-    position: absolute;
-    width: 358px;
-    height: 110px;
+    display: flex;
+    flex-direction: column;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
     line-height: 120%;
     left: 40px;
-    top: 150px;
 }
 
 #user {
-    right: 100px;
-    top: 20px;
-    position: absolute;
     width: 535px;
     height: 622px;
-    padding: 10px;
+    padding: 20px;
 }
 
 p.text {
-    position: relative;
-    width: 600px;
-    height: 32px;
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
@@ -92,11 +108,10 @@ p.text {
 }
 
 .buttontalk1 {
-    position: absolute;
-    left: 70px;
+
     width: 200px;
     height: 60px;
-    top: 350px;
+
     background: #8643DC;
     border-radius: 100px;
     font-family: 'Red Hat Display', Times, sans-serif;
@@ -111,9 +126,14 @@ p.text {
     background-color: rgb(250, 9, 250);
 }
 
+.part2 {
+    display: flex;
+    flex-direction: column;
+}
+
 h2.services {
-    position: absolute;
-    left: 30px;
+
+    padding-left: 40px;
     width: 246px;
     height: 96px;
     font-family: 'Red Hat Display', Times, sans-serif;
@@ -122,16 +142,22 @@ h2.services {
     font-size: 36px;
     line-height: 48px;
     color: #25202F;
-    top: 450px;
+}
+
+.allservices {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
 }
 
 ul#services-list {
     list-style: none;
 }
 
-#ux {
-    position: absolute;
-    top: 600px;
+.logo-services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .n {
@@ -141,18 +167,11 @@ ul#services-list {
     font-size: 24px;
     line-height: 32px;
     color: #25202F;
-    left: 110px;
-}
-
-#ux-n {
-    position: absolute;
-    width: 139px;
-    height: 32px;
-    top: 600px;
+    padding-left: 5%;
 }
 
 .t {
-    position: absolute;
+
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
@@ -160,48 +179,14 @@ ul#services-list {
     left: 30px;
 }
 
-#ux-t {
-    top: 650px;
-}
-
-#brand {
-    position: absolute;
-    top: 700px;
-}
-
-#brand-n {
-    position: absolute;
-    width: 147px;
-    height: 32px;
-    top: 700px;
-}
-
-#brand-t {
-    top: 750px;
-}
-
-#webdev {
-    position: absolute;
-    top: 800px;
-}
-
-#webdev-n {
-    position: absolute;
-    width: 203px;
-    height: 32px;
-    top: 800px;
-}
-
-#wd-t {
-    top: 850px;
+.footer {
+    display: flex;
+    flex-direction: column;
 }
 
 #lasttext {
-    position: absolute;
-    top: 890px;
-    left: 550px;
-    width: 500px;
-    height: 48px;
+    display: flex;
+    justify-content: center;
     font-weight: 500;
     font-size: 36px;
     line-height: 48px;
@@ -209,18 +194,12 @@ ul#services-list {
 }
 
 .socialmedia {
-    position: absolute;
-    top: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-#sm1 {
-    left: 580px;
-}
-
-#sm2 {
-    left: 640px;
-}
-
-#sm3 {
-    left: 700px;
+.sm {
+    padding-left: 20px;
+    padding-right: 20px;
 }
