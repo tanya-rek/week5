@@ -39,20 +39,21 @@ div {
     flex-direction: column;
 }
 
-.more {
+.more12 {
     display: flex;
-    background-color: #f4a46070;
-    height: 100px;
-    flex-basis: 20vw;
-    margin: auto;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60vw;
 }
 
-.more12 {
-    width: 50vw;
+.more {
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-
+    justify-content: space-around;
+    background-color: #f4a46070;
+    height: 100px;
+    flex-basis: 25vw;
+    margin: auto;
 }
 
 .m1 {
@@ -66,7 +67,7 @@ div {
 .more3 {
     background-color: #f4a46070;
     height: 100px;
-    width: 80vh;
+    width: 55vw;
     flex-direction: row;
     align-content: center;
     flex-wrap: wrap;
@@ -86,7 +87,7 @@ div {
 
 .section {
     margin: auto;
-    background-color: #80808050;
+    background-color: #ffffff90;
     width: 10vw;
     padding: 50px;
 }
